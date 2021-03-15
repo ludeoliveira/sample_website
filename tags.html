@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="lt>
+<html lang="en" dir="lt">
 
   <head>
-    <meta charset="utf-8">
     <title>HTML Tags</title>
+    <meta charset="utf-8" >
   </head>
 
   <body>
@@ -26,12 +26,19 @@
       The tables below don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
-  <h2>Block Elements</h2>
+
+  <header>
+    <h2>Block Elements</h2>
+  </header>
+
+  <div>
     <table>
       <tr>
+        <span>
         <th>Tag</th>
         <th>Name</th>
         <th>Purpose</th>
+        </span>
       </tr>
       <tr>
         <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -63,16 +70,33 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>make an ordered list</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>make an unordered list</td>
+      </tr>
     </table>
+    </div>
 
+  <header>
   <h2>Inline Elements</h2>
+  </header>
+
+    <div>
     <table>
     <tr>
+      <span>
       <th>Tag</th>
       <th>Name</th>
       <th>Purpose</th>
       <th>Example</th>
       <th>Result</th>
+      </span>
     </tr>
     <tr>
       <td><code>em</code></td>
@@ -92,7 +116,7 @@
       <td><code>a</code></td>
       <td>anchor</td>
       <td>make hyperlink</td>
-      <td><code>&lt;a href="https://learnenough.com/"&g;Learn Enough&lt;/a&gt;</code></td>
+      <td><code>&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;</code></td>
       <td><a href="https://learnenough.com/">Learn Enough</a></td>
     </tr>
     <tr>
@@ -109,8 +133,20 @@
       <td><code>&lt;code&gt;head&lt;/code&gt;</code></td>
       <td><code>head</code></td>
     </tr>
+    <tr>
+      <td><code>li</code></td>
+      <td>list</td>
+      <td>displays a list</td>
+      <td><code>&lt;li&gt;Vengeful Whale&lt;/li&gt;<br>&lt;li&gt;Salty sailors&lt;/li&gt;<br></code></td>
+      <td>
+        <ol>
+        <li>Vengeful Whale</li>
+        <li>Salty sailors</li>
+        </ol>
+      </td>
+    </tr>
     </table>
-
+    </div>
   </body>
 
 </html>
